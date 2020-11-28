@@ -4,64 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera pagina web</title>
+
+
+    <style>
+        body{
+            font-family: sans-serif;
+            width: 1200px;
+        }
+        .noticias{
+            
+            display: flex;
+            justify-content: space-evenly;
+            text-align: justify;
+        }
+        .noticia{
+            display: flex;
+            background-color: rgb(114, 109, 109);
+            
+            
+        }   
+        .bloque .noticia{
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-left: 10px;
+            padding: 5px;
+            border-radius: 4px;
+            box-shadow: 3pc;
+        }
+        .img-noticia{
+            border-radius: 2%;
+        }
+        .resumen{
+            padding: 5px;
+        }
+        .img-noticia :hover{
+            transform: scale(1.2);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: rgb(67, 67, 153);
+            font-size: 30px;
+        }
+        img:hover{
+            transform: scale(0.9);
+            transition: 1s;
+        }
+        .resumen:hover{
+            transform: scale(0.9);
+            transition: 1s;
+        }
+        hr:hover{
+            transform: scale(1.2);
+            transition: 1s;
+            
+        }        
+        
+     
+        
+    </style>
+
+
+
 </head>
+
 <body>
 
-    <div id="news">
-        <div id="row">
-            <div id="column">              
-   
-                <div id="column">
-                    <img src="imagenes/img-realidad.png" alt="">
-                </div>
-                <div id="column">
-                    <h3><a href="https://www.elespectador.com/entretenimiento/medios/realmix-2020-festival-de-realidad-aumentada-y-realidad-virtual/">RealMix 2020: el festival de realidad aumentada y realidad virtual</a></h3>
+    <section id="news" class="noticias">
+        <div class="bloque">
+            <div class="noticia">
+                <img class="img-noticia" src="imagenes/img-realidad.png" alt="">
+                <div class="resumen">
+                    <h2>RealMix 2020: el festival de realidad aumentada y realidad virtual</h2>
                     <hr>
-                    <p>En el Planetario de Bogotá y en la plataforma Hubs se puede seguir este encuentro dirigido a creadores, realizadores y espectadores de formatos inmersivos en Colombia y Latinoamérica.</p>
-                </div>              
+                    <p>En el Planetario de Bogotá y en la plataforma Hubs se puede seguir este encuentro dirigido a creadores, realizadores y espectadores de formatos inmersivos en Colombia.</p>
+                    <a href="https://www.elespectador.com/entretenimiento/medios/realmix-2020-festival-de-realidad-aumentada-y-realidad-virtual/">Abrir >></a>
+                </div>
+                
+            </div>
+            <div class="noticia">
+                <img class="img-noticia" src="imagenes/img-not2.png" alt="">
+                <div class="resumen">
+                    <h2>Bros Group y Mentor VR se alían para introducir la Realidad Virtual</h2>
+                    <hr>
+                    <p>La iniciativa tiene como objetivo ofrecer una experiencia totalmente disruptiva a los candidatos en los procesos de selección y a las nuevas incorporaciones en sus primeros compases</p>                    
+                    <a href="https://www.equiposytalento.com/noticias/2020/11/27/bros-group-y-mentor-vr-se-alian-para-introducir-la-realidad-virtual-en-los-procesos-de-seleccion-y-on-boarding">Abrir >></a>
+                </div>
                
-            </div>
+            </div>  
 
-            <div id="column">
-                <div id="column">
-                    <img src="imagenes/img-not2.png" alt="">
-                </div>
-                <div id="column">
-                    <h3><a href="https://www.equiposytalento.com/noticias/2020/11/27/bros-group-y-mentor-vr-se-alian-para-introducir-la-realidad-virtual-en-los-procesos-de-seleccion-y-on-boarding">Bros Group y Mentor VR se alían para introducir la Realidad Virtual en los procesos de seleccion y On Boarding</a> </h3>
-                    <hr>
-                    <p>La iniciativa tiene como objetivo ofrecer una experiencia totalmente disruptiva a los candidatos en los procesos de selección y a las nuevas incorporaciones en sus primeros compases en cada organización (On Boarding)</p>
-                </div>      
-            </div>            
         </div>
 
-
-        <div id="row">
-             
-            <div id="column">
-                <div id="column">
-                    <img src="imagenes/img-not3.png" alt="">
-                </div>
-                <div id="column">
-                    <h3><a href="https://www.infobae.com/america/agencias/2020/11/24/a-fondo-operadores-y-ejecutivos-adoptan-la-realidad-virtual-con-avatares-y-oficinas-digitales/">A FONDO-Operadores y ejecutivos adoptan la realidad virtual con avatares y oficinas digitales</a> </h3>
+        <div class="bloque">
+            <div class="noticia">
+                <img class="img-noticia" src="imagenes/img-not3.png" alt="">
+                <div class="resumen">
+                    <h2>A FONDO-Operadores y ejecutivos adoptan la realidad virtual con avatares</h2>
                     <hr>
-                    <p>El sector financiero se ha apuntado a la realidad virtual (RV), que antes estaba reservada para los videojuegos, como una forma de animar el trabajo a domicilio de operadores solitarios o ejecutivos aislados y de replicar las ventas del mundo real, la creación de redes o los eventos de formación.</p>
-                </div>      
+                    <p>El sector financiero se ha apuntado a la realidad virtual (RV), que antes estaba reservada para los videojuegos, como una forma de animar el trabajo a domicilio de operadores solitarios.</p>
+                    <a href="https://www.infobae.com/america/agencias/2020/11/24/a-fondo-operadores-y-ejecutivos-adoptan-la-realidad-virtual-con-avatares-y-oficinas-digitales/">Abrir >></a>
+                </div>
+                
             </div>
-            <div id="column">
-                <div id="column">
-                    <img src="imagenes/img-not4.png" alt="">
-                </div>
-                <div id="column">
-                    <h3><a href="https://motoresfera.com/2020/11/27/el-proceso-de-investigacion-del-mercado-realidad-aumentada-y-realidad-virtual-de-2020-a-2024-incluye-la-estimacion-del-tamano-del-mercado-los-tipos-la-aplicacion-y-el-modelo-de-pronostico/">Proceso de investigación del mercado realidad virtual y aumentada 2020-2024</a></h3>
+            <div class="noticia">
+                <img class="img-noticia" src="imagenes/img-not4.png" alt="">
+                <div class="resumen">
+                    <h2>Proceso de investigación del mercado realidad virtual y aumentada 2020-2024</h2>
                     <hr>
-                    <p>El informe de mercado Realidad Aumentada y Realidad Virtual es una guía que beneficia a los inversores y participantes para gestionar y reducir las amenazas, mejorar los modelos industriales adecuados y tomar buenas políticas y decisiones</p>
-                </div>      
+                    <p>El informe de mercado Realidad Aumentada y Realidad Virtual es una guía que beneficia a los inversores y participantes para gestionar y reducir las amenazas, mejorar los modelos industriales</p>
+                    <a href="https://motoresfera.com/2020/11/27/el-proceso-de-investigacion-del-mercado-realidad-aumentada-y-realidad-virtual-de-2020-a-2024-incluye-la-estimacion-del-tamano-del-mercado-los-tipos-la-aplicacion-y-el-modelo-de-pronostico/">Abrir >></a>
+                </div>
+                
             </div>
 
         </div>
-      
-    </div> 
-
-
+       
+    </section>
 </body>
+
 </html>
