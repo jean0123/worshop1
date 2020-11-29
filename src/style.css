@@ -57,3 +57,32 @@ body{
   text-decoration: underline;
   font-weight: bold;
 }
+.servicios{
+  display: flex;
+  text-align:center;
+  background-color: transparent;
+  height: 500px;
+}
+.servicios-imagen{
+  margin-top: 10px;
+  Border: 5;
+  width: 300px; 
+  height:200px; 
+}
+.col-3{
+  width: 34%;
+  margin: 2px;
+  height: 450px;
+  background-color: blue;
+  display: inline-block;
+  text-align: center;
+}
+p {
+  text-align: justify;
+  margin: 10px;
+  font-size: 15px;
+}
+a {
+  text-align: center;
+  color: yellowgreen;
+}
