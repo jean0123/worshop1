@@ -61,7 +61,7 @@ body{
   display: flex;
   text-align: center;
   background-color: transparent;
-  height: 455px;
+  height: 454px;
 }
 .servicios-imagen{
   margin-top: 10px;
@@ -104,7 +104,7 @@ a {
   background-color: rgba(73, 71, 180, 0.445);
   height: 500px;
   text-align: start;
-  margin-bottom: -15px;
+  margin-bottom: -17px;
 }
 .bloque{
   background-color: transparent;
@@ -168,8 +168,8 @@ hr:hover{
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-  margin-top: -10px; 
+  gap: 2px;
+  margin-top: -17px; 
 }
 .grid div
 {
@@ -179,3 +179,13 @@ hr:hover{
 .img2:hover {filter: grayscale(80%);}
 .img3:hover {filter: grayscale(80%);}
 .img4:hover {filter: grayscale(80%);}
+.footer{
+  display: flexbox;
+  margin-top: -15px;
+  background-color: antiquewhite;
+  color: #626567;
+}
+.footer-copyright{
+  text-align: center;
+  color: black;
+}
