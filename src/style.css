@@ -33,7 +33,7 @@ body{
   color: black;
 }
 .container-imagen{
-  background-image: url('./media/imagen_bg.jpg');
+  background-image: url('./img/imagen_bg.jpg');
   height: 280px;
   background-repeat: no-repeat;
   background-size: cover;
